@@ -1,0 +1,20 @@
+body{
+    background-color: grey;
+    height: 300vh;
+}
+body::-webkit-scrollbar{
+   width: 20px;
+}
+body::-webkit-scrollbar-thumb{
+    background: radial-gradient(tomato,skyblue);
+    border-radius: 20px;
+
+}
+body::-webkit-scrollbar-track{
+    background:linear-gradient(tomato,skyblue);
+    border-radius: 20px;
+    
+}
+
+
+
